@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+  }
+  h1 {
+    font-family: "Courier New", monospace;
+    color: white;
+    text-align: center;
+  }
+  h2 {
+    font-family: "Courier New", monospace;
+    color: white;
+}
+footer {
+    font-family: "Courier New", monospace;
+    color: white;
+}
