@@ -19,8 +19,44 @@ body {
     color: #462A1E
 }
 header.primary {
-    background:#9B8175;
+    background:#9C8276;
+    padding: 40px;
 }
-h1 {
+header.primary h1 {
     text-align: center;
+    font-size: 2.7rem;
+    text-shadow: 1px 1px 1px ;
+}
+header.primary h2 {
+  text-align: center;
+  text-shadow: 1px 1px 1px ;
+  font-size: 1.8rem;
+  margin:0;
+  color: #462A1E;
+}
+header.primary a {
+  color: #462A1E;
+}
+nav.primary {
+  text-align: center;
+  text-shadow: 1px 1px 1px ;
+}
+nav.primary ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+nav.primary ul li {
+  list-style-type: none;
+}
+nav.primary ul li a {
+  color: #462A1E;
+  border: 3px solid #705142;
+  padding: 7.5px 10px;
+  border-radius: 20px;
+  background-color: #C4B4AD;
+  text-decoration: none;
+}
+nav.primary ul li a:hover {
+  background-color:#9C8276;
 }
